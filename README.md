@@ -18,7 +18,6 @@ This repository contains a Python driver implementation for the **WattsNext Ener
 - **Protocol:** WattsNext EMS Northbound Interface (TCP/Modbus)
 - **Document:** `Energy_Management_System__EMS__Northbound_Interfac.pdf`
 - **Version:** 2.2 (December 16, 2024)
-- **Link:** [Google Drive (access required)](https://drive.google.com/)
 - **Technical Contact:** info@dummy.com
 - **Cabinet Model:** ES232/115K-A/EU
 
