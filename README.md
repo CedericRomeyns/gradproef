@@ -33,19 +33,6 @@ This repository contains a Python driver implementation for the **WattsNext Ener
 - `enirislib` and the IO controller framework with Modbus support
 - Project-specific constants, status helpers, and register definitions (see `common` and `io_controller` imports).
 
-## Usage
-
-Import and configure the `WattsNextStorageCabinetTCPProtocol` within your IO controller environment. Register maps and device classes are instantiated based on Modbus scan results.
-
-**Example:**
-
-```python
-from your_module import WattsNextStorageCabinetTCPProtocol
-
-driver = WattsNextStorageCabinetTCPProtocol()
-# Set up driver, scan network, interact with registers, etc.
-```
-
 ## Device Types Supported
 
 - WattsNext All-in-one Cabinet ES232/115K-A/EU ([Docs](https://docs.eniris.be/Devices/PV-hybrid-and-battery-inverters/WattsNext/))
