@@ -1,6 +1,6 @@
 # WattsNext EMS Protocol (TCP) Driver
 
-This repository contains a Python driver implementation for the **WattsNext Energy Management System (EMS) Northbound Interface Protocol (TCP)**. The driver supports Modbus-based communication with WattsNext all-in-one battery storage cabinets and associated devices. The protocol is documented in the manufacturer’s PDF: _"Energy Management System (EMS) Northbound Interface Protocol v2.2"_ (December 16, 2024).
+This repository contains a Python driver implementation for the **WattsNext Energy Management System (EMS) Northbound Interface Protocol (TCP)**. The driver supports Modbus-based communication with WattsNext all-in-one battery storage cabinets and associated devices.
 
 ## Features
 
@@ -16,7 +16,6 @@ This repository contains a Python driver implementation for the **WattsNext Ener
 ## Protocol & Documentation
 
 - **Protocol:** WattsNext EMS Northbound Interface (TCP/Modbus)
-- **Document:** `Energy_Management_System__EMS__Northbound_Interfac.pdf`
 - **Version:** 2.2 (December 16, 2024)
 - **Technical Contact:** info@dummy.com
 - **Cabinet Model:** ES232/115K-A/EU
@@ -63,10 +62,6 @@ driver = WattsNextStorageCabinetTCPProtocol()
 - Register definitions and mappings extend generic Modbus register abstractions.
 - Easily extensible for new device types or custom Modbus register maps.
 
-## License
 
-_Specify your license here (e.g., MIT, Apache 2.0)_
-
----
 
 > **Note:** This code is intentionally not production-ready and does not provide real protection of the company’s intellectual property. It is provided solely as an illustrative example. With appropriate modifications and supporting backend logic, it could be adapted for practical use.
